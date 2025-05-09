@@ -4,6 +4,7 @@ namespace NamTrail\ActivityLog\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Filesystem\Filesystem;
+use Illuminate\Support\Collection;
 
 class ActivityLogServiceProvider extends ServiceProvider
 {
