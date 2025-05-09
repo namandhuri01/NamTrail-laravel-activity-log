@@ -1,0 +1,25 @@
+{
+    "name": "namtrail/laravel-activity-log",
+    "description": "A custom laravel package for logging model activities",
+    "authors": [
+        {
+            "name": "Naman Mehta",
+            "email": "namandhuri54@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^6|^7|^8|^9|^10|^11|^12"
+    },
+    "autoload": {
+        "psr-4": {
+            "NamTrail\\ActivityLog\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NamTrail\\ActivityLog\\Providers\\ActivityLogServiceProvider"
+            ]
+        }
+    }
+}
