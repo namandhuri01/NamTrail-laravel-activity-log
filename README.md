@@ -41,14 +41,14 @@ return [
 
 ### Basic Usage
 
-Add the `LogsActivity` trait to your model:
+Add the `ActivityLog` trait to your model:
 
 ```php
-use NamTrail\ActivityLog\Traits\LogsActivity;
+use NamTrail\ActivityLog\Traits\ActivityLog;
 
 class YourModel extends Model
 {
-    use LogsActivity;
+    use ActivityLog;
     
     
 }
